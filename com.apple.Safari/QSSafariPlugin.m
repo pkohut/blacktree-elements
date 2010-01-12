@@ -73,7 +73,7 @@
 	NSDictionary *dict = [object objectForType:@"qs.safari.bookmarkGroup"];
 	
 	NSString *type = [dict objectForKey:@"WebBookmarkType"];
-	NSString *ident = [dict objectForKey:@"WebBookmarkIdentifier"];
+//	NSString *ident = [dict objectForKey:@"WebBookmarkIdentifier"];
 	
 	if (![type isEqualToString:@"WebBookmarkTypeProxy"]) {
 		
